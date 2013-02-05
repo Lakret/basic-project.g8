@@ -1,18 +1,10 @@
 package $organization$.$name;format="lower,word"$
 
-import org.specs2.mutable._
+import org.scalatest._
+import org.scalatest.matchers.ShouldMatchers
 
-class AppSpec extends Specification {
-
-  "The 'Hello world' string" should {
-    "contain 11 characters" in {
-      "Hello world" must have size(11)
-    }
-    "start with 'Hello'" in {
-      "Hello world" must startWith("Hello")
-    }
-    "end with 'world'" in {
-      "Hello world" must endWith("world")
-    }
+class StackSpec extends FlatSpec with ShouldMatchers {
+  "A 2 + 2" should "be equal to 4" in {
+    (2 + 2) should equal (4)
   }
 }
