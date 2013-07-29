@@ -17,4 +17,8 @@ scalacOptions ++= Seq("-deprecation", "-feature",
 
 EclipseKeys.withSource := true
 
-initialCommands := "import $organization$.$name;format="lower,word"$._"
+initialCommands := """
+  import $organization$.$name;format="lower,word"$._
+  import scalaz._
+  import Scalaz._
+""
