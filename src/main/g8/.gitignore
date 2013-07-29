@@ -3,6 +3,7 @@
 .cache
 .classpath
 .project
+.ensime
 
 # sbt specific
 dist/*
