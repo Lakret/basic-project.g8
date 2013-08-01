@@ -21,4 +21,4 @@ initialCommands := """
   import $organization$.$name;format="lower,word"$._
   import scalaz._
   import Scalaz._
-""
+"""
