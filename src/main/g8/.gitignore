@@ -4,6 +4,7 @@
 .classpath
 .project
 .ensime
+.ensime_lucene
 
 # sbt specific
 dist/*
