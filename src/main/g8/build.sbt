@@ -14,8 +14,6 @@ scalacOptions ++= Seq("-deprecation", "-feature",
                       "-language:implicitConversions", "-language:reflectiveCalls",
   	              "-language:postfixOps")
 
-EclipseKeys.withSource := true
-
 initialCommands := """
   import $organization$.$name;format="lower,word"$._
 """
